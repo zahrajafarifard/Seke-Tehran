@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: rgb(36,54,244); */
+  /* background: linear-gradient(252deg, rgba(36,54,244,1) 27%, rgba(0,12,140,1) 73%); */
+  height:screen;
+  color: black;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "IRANSansWeb";
+  /* src:local("nastaliq"),url("./assets/fonts/IRANSansWeb/IranNastaliq_p30download.com.ttf"); */
+  src: local("IRANSansWeb"),
+    url("./assets/fonts/IRANSansWeb/IRANSansWeb.ttf") format("truetype");
+    /* font-family: "nastaliq";
+    src:local("nastaliq"),url("./assets/fonts/IRANSansWeb/IranNastaliq_p30download.com.ttf"); */
+}
+@font-face {
+  font-family: "BTitrBold";
+  
+  src: local("BTitrBold"),
+    url("./assets/fonts/IRANSansWeb/BTitrBold.ttf") format("truetype");
+  
+}
+@font-face {
+  font-family: "nastaliq"; 
+   src:local("nastaliq"),url("./assets/fonts/IRANSansWeb/IranNastaliq_p30download.com.ttf"); 
+}

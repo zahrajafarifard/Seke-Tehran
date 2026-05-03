@@ -1,0 +1,41 @@
+{
+  "name": "back-tablo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "body-parser": "^1.20.1",
+    "css-loader": "^6.7.3",
+    "electron-is-dev": "^2.0.0",
+    "express": "^4.18.2",
+    "javascript-binary-converter": "^1.0.0",
+    "moment-jalaali": "^0.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.1.0",
+    "net": "^1.0.2",
+    "nodemon": "^2.0.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "5.0.1",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "sequelize": "^6.28.0",
+    "sharp": "^0.33.2",
+    "socket.io": "^4.6.1",
+    "style-loader": "^3.3.1",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
