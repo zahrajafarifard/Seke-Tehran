@@ -18,6 +18,15 @@ This service is responsible for:
 - Real-time socket support for live updates
 - Separate handling of BLV, Pelatin, and Pasag price tables
 - Configuration and permission management by location
+- Image generation for visual price displays using Sharp
+
+## Image Generation
+
+The backend generates coin price images dynamically using the Sharp library. It creates SVG overlays with coin names, buy/sell prices, and status indicators for display on price boards.
+
+## Service Setup
+
+The `node-service.js` file sets up the application as a Windows service using node-windows, enabling it to run as a background service named 'SekeTehran TV' for continuous operation.
 
 ## API Routes
 
